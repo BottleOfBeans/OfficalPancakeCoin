@@ -1,5 +1,5 @@
-import hashlib
 import time
+import hashlib
 
 
 class Block:
