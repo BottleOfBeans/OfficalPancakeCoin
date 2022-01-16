@@ -10,5 +10,5 @@ def HomePage():
 
 @app.route('/about/')
 def AboutPage():
-	return render_template('about.html')
+	return HelloWorld!
 
