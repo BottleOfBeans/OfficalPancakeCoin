@@ -28,3 +28,107 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+body {
+    background-color: #e09e22;
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #8f8f85;
+    border-top: 2px solid #77776d69;
+    padding-top: 50px;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+p {
+    color: #8f8f85;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    min-width: 200px;
+    text-align: center;
+    align-self: center;
+    padding: 10px 10px;
+    margin: 0px 30%;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #264653;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer li {
+    color: #edf0f1;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 17px;
+    display: inline-flex;
+    padding: 0px 30px;
+}
+
+.footer li a {
+    transition: all 0.3s ease 0s;
+}
+
+.footer li a:hover {
+    color: #0088a9;
+}
+
+.item-uses {
+    padding-bottom: 15px;
+}
+
+.panel {
+    background-color: white;
+    padding: 0px 25px;
+    padding-bottom: 15px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 1%;
+    margin-top: 30px;
+    border-radius: 1%;
+}
+
+.nav-list li {
+    display: inline-flex;
+    padding: 0px 30px;
+    /* the first value for padding is top and bottom, the second value is left and right (same goes for margin I think)*/
+}
+
+.item-uses {
+    color: #8f8f85;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
