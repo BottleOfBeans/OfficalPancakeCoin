@@ -37,13 +37,14 @@ ol, ul {
 	list-style: none;
 }
 
+.background-img {
+	width: 100%;
+}
 
 img {
 	border-radius: 8px;
-}
-
-.background-img {
-	width: 100%;
+	size: 500px;
+	text-align: center;
 }
 
 h2 {
