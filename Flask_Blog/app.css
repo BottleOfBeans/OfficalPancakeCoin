@@ -37,6 +37,15 @@ ol, ul {
 	list-style: none;
 }
 
+
+img {
+	border-radius: 8px;
+}
+
+.background-img {
+	width: 100%;
+}
+
 h2 {
     font-size: 30px;
     font-weight: 500;
